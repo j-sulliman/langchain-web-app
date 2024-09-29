@@ -27,6 +27,9 @@ We use [streamlit](https://streamlit.io/) to simplify the creation of our front 
 
 We use the article [Traceloop OpenLLMetry](https://docs.dynatrace.com/docs/shortlink/dynatrace-traceloop-openllmetry) to send OTEL traces to Dynatrace
 
+You'll need to generate an API token in Dynatrace with openTelemetryTrace.ingest, metrics.ingest, and logs.ingest scopes as noted here: 
+[here](https://docs.dynatrace.com/docs/shortlink/dynatrace-traceloop-openllmetry#example-openai-llm-model-with-langchain)
+
 
 ### Lab Components
 ![Lab Components](https://github.com/j-sulliman/langchain-web-app/blob/main/architecture_diagram.png?raw=true")
