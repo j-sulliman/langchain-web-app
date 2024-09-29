@@ -72,12 +72,12 @@ streamlit run streamlit_openai_app.py
 ###  View Application Service Metrics and OTEL Traces in Dynatrace
 
 
-#### Service Metrics
+#### Service Metrics:
 Open Services(the service name will appear in Dynatrace as the **app-name** defined in line20, __(Traceloop.init(app_name="[your-app-name]-langchain-openai", disable_batch=True)__:
 
 ![Lab Components](https://github.com/j-sulliman/langchain-web-app/blob/main/services.png?raw=true")
 
 
-#### Traces
+#### Traces:
 
 ![Lab Components](https://github.com/j-sulliman/langchain-web-app/blob/main/traces.png?raw=true")
