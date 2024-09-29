@@ -24,7 +24,7 @@ sadasdsad
 
 sfgdsfdfs
 
-![Lab Components](langchain_demo_inprogress/architecture_diagram.png "architecture overview")
+![Lab Components](https://github.com/j-sulliman/langchain-web-app/blob/main/architecture_diagram.png?raw=true")
 
 
 
