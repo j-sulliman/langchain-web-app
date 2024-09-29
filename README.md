@@ -9,7 +9,7 @@ This lab explores instrumenting a langchain and openai application with Opentele
 
 [Langchain](https://www.langchain.com/langchain) is framework that simplifies and abstracts working with Large Lange Models (LLMs) from various providers. 
 
-For this lab we use LangChain's OpenAI integration to interact with the GPT4 model.
+We use LangChain's OpenAI integration to interact with the GPT4 model.
 
 ### OpenAI
 You'll need to create an [OpenAI API key](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key) which will be used to autheniticate requests from Langchain
@@ -20,8 +20,9 @@ For this lab we use OpenAI's gpt-4o model
 [Traceloop](https://www.traceloop.com/docs/introduction) integrates with OpenLLMetry SDK and simplifies getting performance, code level traces from LLM applications to observability platforms.
 
 ### Streamlit
+No Java, CSS exprience needed.
 
-We use [streamlit](https://streamlit.io/) to simplify the creation of our front end LLM web app.  No Java, CSS exprience needed. 
+We use [streamlit](https://streamlit.io/) to simplify the creation of our front end LLM web app.  
 
 ### Dynatrace
 
@@ -44,7 +45,7 @@ You'll need to generate an API token in Dynatrace with openTelemetryTrace.ingest
 
 ###  Set environment variables
 
-From the codespaces terminal(note - the %20 formatting is not a typo!):
+From the codespaces terminal(note - the __%20 formatting__ is not a typo!):
 
 ```
 export OPENAI_API_KEY=<your-open-api-key>
@@ -72,7 +73,7 @@ streamlit run streamlit_openai_app.py
 
 
 #### Service Metrics
-Open Services(the service name will appear in Dynatrace as the **app-name** defined in line20, **(Traceloop.init(app_name="[your-app-name]-langchain-openai", disable_batch=True)**:
+Open Services(the service name will appear in Dynatrace as the **app-name** defined in line20, __(Traceloop.init(app_name="[your-app-name]-langchain-openai", disable_batch=True)__:
 
 ![Lab Components](https://github.com/j-sulliman/langchain-web-app/blob/main/services.png?raw=true")
 
