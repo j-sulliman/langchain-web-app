@@ -64,9 +64,6 @@ streamlit run streamlit_openai_app.py
 
 **Note** Using a virtualenv shouldn't ordinarily be required here.  Further research needed to run streamlit in the defaul codespaces python environment.  Above is a simple workaround.
 
-```
-streamlit run streamlit_openai_app.py
-```
 
 ###  View Application Service Metrics and OTEL Traces in Dynatrace
 
